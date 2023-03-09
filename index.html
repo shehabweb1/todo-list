@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First TODO List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="main-header">
+        <div class="container">
+            <h1>My First TODO</h1>
+
+            <form action="" id="todo-form">
+                <input type="text" name="todo-name" placeholder="What I want to do.." autofocus>
+                <button type="submit">Add TODO</button>
+            </form>
+        </div>
+    </header>
+    <section>
+        <div class="container" id="main-content">
+            <ul class="state">
+                <li>
+                    <span>Remaining</span>
+                    <span id="remaining-todo">0</span>
+                </li>
+                <li>
+                    <span>Completed</span>
+                    <span id="completed-todo">0</span>
+                </li>
+                <li>
+                    <span>Total</span>
+                    <span id="total-todo">0</span>
+                </li>
+            </ul>
+            <ul class="todos">
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Design By <a href="https://portfolio-s0.netlify.app" target="_blank">Shehab Thuhid</a></p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
